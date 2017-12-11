@@ -1,0 +1,9 @@
+Building FakeCoin
+
+See doc/readme-qt.rst for instructions on building FakeCoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of FakeCoin.
+
+See doc/build-*.txt for instructions on building fakecoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of FakeCoin.
