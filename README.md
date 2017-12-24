@@ -3,13 +3,14 @@ FakeCoin integration/staging tree
 
 https://www.reddit.com/r/FakeCoin/
 
-Copyright (c) 2009-2013 Bitcoin Developers
-Copyright (c) 2011-2013 Litecoin Developers
+Copyright (c) 2009-2013 Bitcoin Developers | 
+Copyright (c) 2011-2013 Litecoin Developers | 
 Copyright (c) 2017 Diamond Group, LLC.
 
 What is FakeCoin?
 ----------------
 FakeCoin is Secure, safe, and fast.
+
 But most of all: FakeCoin is REAL.
 
 FakeCoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
@@ -27,7 +28,7 @@ the FakeCoin client sofware, see the sidebar on https://www.reddit.com/r/FakeCoi
 License
 -------
 
-Diamond Group, LLC. beleaves that FakeCoin will benefit all of mankind it is released under the terms of the MIT license. See `COPYING` for more
+Diamond Group, LLC. beleaves that FakeCoin will benefit all of mankind and so it is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
 Development process
