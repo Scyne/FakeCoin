@@ -4,6 +4,7 @@ FakeCoin integration/staging tree
 http://www.fakecoin.org
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Copyright (c) 2009-2013 Bitcoin Developers | 
 Copyright (c) 2011-2013 Litecoin Developers | 
 Copyright (c) 2017 Diamond Group, LLC.
@@ -13,6 +14,13 @@ What is FakeCoin?
 FakeCoin is Secure, safe, and fast.
 
 But most of all: FakeCoin is REAL.
+=======
+Copyright (c) 2009-2013 Bitcoin Developers
+Copyright (c) 2011-2013 Litecoin Developers
+
+What is FakeCoin?
+----------------
+>>>>>>> parent of afad6d9... Added to make Windows Comp Easy and safe
 =======
 Copyright (c) 2009-2013 Bitcoin Developers
 Copyright (c) 2011-2013 Litecoin Developers
@@ -37,7 +45,11 @@ License
 -------
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Diamond Group, LLC. beleaves that FakeCoin will benefit all of mankind and so it is released under the terms of the MIT license. See `COPYING` for more
+=======
+FakeCoin is released under the terms of the MIT license. See `COPYING` for more
+>>>>>>> parent of afad6d9... Added to make Windows Comp Easy and safe
 =======
 FakeCoin is released under the terms of the MIT license. See `COPYING` for more
 >>>>>>> parent of afad6d9... Added to make Windows Comp Easy and safe
