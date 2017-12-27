@@ -1,33 +1,18 @@
-FakeCoin integration/staging tree
-================================
+FakeCoin : A totaly Real Crypto
+===============================
 
-http://www.fakecoin.org
+https://www.reddit.com/r/FakeCoin/
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Copyright (c) 2009-2013 Bitcoin Developers | 
-Copyright (c) 2011-2013 Litecoin Developers | 
+Copyright (c) 2009-2013 Bitcoin Developers |
+Copyright (c) 2011-2013 Litecoin Developers |
 Copyright (c) 2017 Diamond Group, LLC.
 
-What is FakeCoin?
-----------------
 FakeCoin is Secure, safe, and fast.
 
 But most of all: FakeCoin is REAL.
-=======
-Copyright (c) 2009-2013 Bitcoin Developers
-Copyright (c) 2011-2013 Litecoin Developers
 
 What is FakeCoin?
-----------------
->>>>>>> parent of afad6d9... Added to make Windows Comp Easy and safe
-=======
-Copyright (c) 2009-2013 Bitcoin Developers
-Copyright (c) 2011-2013 Litecoin Developers
-
-What is FakeCoin?
-----------------
->>>>>>> parent of afad6d9... Added to make Windows Comp Easy and safe
+=================
 
 FakeCoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
  - 2.5 minute block targets
@@ -39,21 +24,12 @@ The rest is the same as Bitcoin.
  - 2016 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the FakeCoin client sofware, see http://www.fakecoin.org.
+the FakeCoin client sofware, see https://www.reddit.com/r/FakeCoin/.
 
 License
 -------
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 Diamond Group, LLC. beleaves that FakeCoin will benefit all of mankind and so it is released under the terms of the MIT license. See `COPYING` for more
-=======
-FakeCoin is released under the terms of the MIT license. See `COPYING` for more
->>>>>>> parent of afad6d9... Added to make Windows Comp Easy and safe
-=======
-FakeCoin is released under the terms of the MIT license. See `COPYING` for more
->>>>>>> parent of afad6d9... Added to make Windows Comp Easy and safe
-information or see http://opensource.org/licenses/MIT.
 
 Development process
 -------------------
@@ -66,16 +42,15 @@ development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
 submitter will be asked to start a discussion (if they haven't already) on the
-[mailing list](http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-development).
+[Subreddit](https://www.reddit.com/r/FakeCoin/).
 
 The patch will be accepted if there is broad consensus that it is a good thing.
 Developers should expect to rework and resubmit patches if the code doesn't
 match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
-The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/bitcoin/bitcoin/tags) are created
-regularly to indicate new official, stable release versions of FakeCoin.
+The `master` branch has been built and tested, but is not guaranteed to be
+completely stable.
 
 Testing
 -------
@@ -96,7 +71,6 @@ Unit tests for the core code are in `src/test/`. To compile and run them:
 
 Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
-    qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
+    qmake BITCOIN_QT_TEST=1 -o Makefile.test FakeCoin-qt.pro
     make -f Makefile.test
     ./fakecoin-qt_test
-
