@@ -5,6 +5,8 @@
 #ifndef BITCOIN_UTIL_H
 #define BITCOIN_UTIL_H
 
+#include <sys/types.h>
+
 #include "uint256.h"
 
 #include <stdarg.h>
