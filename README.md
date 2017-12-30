@@ -5,7 +5,7 @@ https://www.reddit.com/r/FakeCoin/
 
 Copyright (c) 2009-2013 Bitcoin Developers |
 Copyright (c) 2011-2013 Litecoin Developers |
-Copyright (c) 2017 Diamond Group
+Copyright (c) 2017-2018 Diamond Group
 
 FakeCoin is Secure, safe, and fast.
 
@@ -17,14 +17,14 @@ What is FakeCoin?
 FakeCoin, the brainchild of Scynetoshi Blackamoto, is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
  - 2.5 minute block targets
  - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
+ - ~84 million total FAKs (Pronounced "fAuk")
 
 The rest is the same as Bitcoin except better.
- - 50 coins per block
+ - 50 FAKs per block
  - 2016 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the FakeCoin client sofware, see https://www.reddit.com/r/FakeCoin/.
+the FakeCoin client sofware, visit https://www.reddit.com/r/FakeCoin/.
 
 License
 -------
