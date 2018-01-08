@@ -136,7 +136,12 @@ public:
 "\n"
 "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.\n"
 "\n"
-"This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.", 0, QApplication::UnicodeUTF8));
+"This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.\n"
+"\n"
+" <> Diamond Club approves of this program, hehehehe <>", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        buttonBox->setToolTip(QApplication::translate("AboutDialog", "<html><head/><body><p>Anyway, See you later!</p></body></html>", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
     } // retranslateUi
 
 };

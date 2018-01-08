@@ -14,6 +14,7 @@ i686-w64-mingw32.static-qmake-qt4 \
 	BDB_LIB_PATH=$MXE_LIB_PATH \
 	MINIUPNPC_INCLUDE_PATH=$MXE_INCLUDE_PATH \
 	MINIUPNPC_LIB_PATH=$MXE_LIB_PATH \
+	USE_QRCODE=1 \
 	QMAKE_LRELEASE=/mnt/mxe/usr/i686-w64-mingw32.static/qt/bin/lrelease FakeCoin-qt.pro
 
 make -f Makefile.Release
