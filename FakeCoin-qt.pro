@@ -1,8 +1,9 @@
 TEMPLATE = app
 TARGET = fakecoin-qt
 macx:TARGET = "FakeCoin-Qt"
-VERSION = 0.8.5.1
-INCLUDEPATH += src src/json src/qt
+VERSION = 0.8.5.2
+INCLUDEPATH += src src/json src/qt /usr/local/include /usr/local/lib
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin"
 QT += core gui network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
@@ -55,7 +56,7 @@ win32:QMAKE_LFLAGS *= -Wl,--large-address-aware
 contains(USE_QRCODE, 1) {
     message(Building with QRCode support)
     DEFINES += USE_QRCODE
-    LIBS += -lqrencode
+    LIBS += /usr/local/lib/libqrencode.a
 }
 
 # use: qmake "USE_UPNP=1" ( enabled by default; default)
